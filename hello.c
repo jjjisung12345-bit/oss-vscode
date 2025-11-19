@@ -19,13 +19,13 @@ int main(){
     int *data;
     data = (int *)malloc(sizeof(int) * tot);
     for(int i = 0; i < tot; i++){
-        fscanf(fp, "%d", data[i]);
+        fscanf(fp, "%d", &data[i]);
     }
     fscanf(fp, "%d", &num);
     int *arr;
     arr = (int *)malloc(sizeof(int) * num);
     for(int i = 0;i<num;i++){
-        scanf("%d", arr[i]);
+        scanf("%d", &arr[i]);
     }
     for(int i = 0; i < tot; i++){
         for(int j =0; j<num; j++){
