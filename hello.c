@@ -28,7 +28,7 @@ int main(){
         scanf("%d", arr[i]);
     }
     for(int i = 0; i < tot; i++){
-        for(int j =0; j<tot; j++){
+        for(int j =0; j<num; j++){
             if(data[i] == arr[j]){
             printf("%d", i);
             }
